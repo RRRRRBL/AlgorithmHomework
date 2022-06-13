@@ -27,7 +27,7 @@ def dac(number, dp, counter):
         counter[0] += 1
 
 
-num_ = 30
+num_ = 10
 fib_counter = [0]
 dac_counter = [0]
 dp_array = dac_fibonacci(num_, dac_counter)

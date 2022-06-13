@@ -31,7 +31,7 @@ n = 10
 weights = same_linear_remainder(n)
 print(weights)
 values = same_linear_remainder(n)
-spaces = 2000
+spaces = 10
 result = knapasckdp(weights, values, spaces)
 for i in range(n):
     print(result[i])

@@ -45,7 +45,7 @@ def find_vw(products):  # 对象列表排序
     return products.vw
 
 
-number = 2000
+number = 50
 space = 100
 products_list = []
 weights = same_linear_remainder(number)

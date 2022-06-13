@@ -124,7 +124,6 @@ print(counts_merge[0])
 print("合并排序子问题规模", end='')
 print(size_counter_merge)
 
-print("********************************************************************************************")
 
 quick_sort(quick_sort_list, 0, num_needed - 1, counts_quick, size_counter_quick)
 print("快速排序结果", end='')
